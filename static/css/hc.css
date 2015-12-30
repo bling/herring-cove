@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-
 body
 {
   color:#2c3e50;
@@ -410,7 +409,7 @@ img
   max-width:100%;
 }
 
-#article
+.article
 {
   margin-bottom:30px;
   background-color:#f9f9f9;
@@ -705,7 +704,7 @@ time
   display:none
 }
 
-#article h1,#article h2,#article h3
+.article h1,.article h2,.article h3
 {
   color:#3a3a3a
 }
@@ -763,7 +762,7 @@ time
     padding: 15px 15px 0 15px;
   }
 
-  #article {
+  .article {
       padding: 0 10px 0 10px;
   }
 

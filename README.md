@@ -13,12 +13,6 @@ Herring Cove is a clean and responsive [Hugo](//gohugo.io) theme based on the [J
 * Easy to configure
 * Based on Bootstrap
 
-### Screenshots
-
-![screenshot](/images/screenshot1.png)
-![screenshot](/images/screenshot2.png)
-![screenshot](/images/screenshot-landing.png)
-
 ### Setup
 
 1. Install Hugo
