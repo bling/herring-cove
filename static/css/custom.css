@@ -62,6 +62,19 @@ a.read-more span {
     opacity:.6;
 }
 
+.article-tags {
+    float:right;
+}
+.article-tags a {
+    border:1px solid #aaa;
+    background:#eee;
+    border-radius:6px;
+    padding:3px;
+    padding-left:6px;
+    padding-right:6px;
+    font-size:14px;
+}
+
 .sidebar-nav {
     padding-left:10px;
     padding-right:10px;

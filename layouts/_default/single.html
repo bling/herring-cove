@@ -2,7 +2,15 @@
 
 <div class="article">
   <div class="article-title">{{ .Title }}</div>
-  <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> {{ .Date.Format  "2006-01-02" }}</small></p> <hr/>
+  <div class="meta">
+    <small><i class="fa fa-calendar-o"></i> {{ .Date.Format  "2006-01-02" }}</small>
+    <div class="article-tags">
+      {{ range .Params.tags }}
+      <a href="/tags/{{ . }}">{{ . }}</a>
+      {{ end }}
+    </div>
+  </div>
+  <hr/>
   <div class="post">
     {{ .Content }}
   </div>
