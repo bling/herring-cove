@@ -7,15 +7,15 @@
     <meta name="description" content="{{ .Description }}">
     {{ .Hugo.Generator }}
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    <link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}/css/hc.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}/css/custom.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}/css/highlight.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-         <![endif] d-->
+       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif] d-->
   </head>
   <body>
     <div id = "wrapper">
@@ -79,6 +79,10 @@
             </div>
           </li>
         </ul>
+        <footer>
+          <p class="text-muted">&copy; {{ .Site.Title }} {{.Now.Format "2006"}}. All rights reserved. </p>
+        </footer>
+
       </div>
 
 
